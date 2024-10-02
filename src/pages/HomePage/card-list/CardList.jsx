@@ -1,10 +1,5 @@
 import React, {useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux'; 
-import { fetchProducts } from '../../../store/productsSlice'; 
-import CardSkeleton from '../CardSkeleton'; 
-import CardItem from '../CardItem'; 
-import styles from './CardList.module.css';
-
 
 const CardList = () => {
     const dispatch = useDispatch();

@@ -1,10 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import CardSkeleton from './card-skeleton/CardSkeleton';
-import CardItem from './card-item/CardItem';
-import Loader from '../../components/shared/Loader'; 
-import styles from './DetailPage/DetailPage.module.css';
 
 const dispatch = useDispatch();
 
